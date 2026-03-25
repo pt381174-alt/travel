@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+
+<body>
+    <script>
+        function mul(a, b) {
+            console.log(a * b);
+            // return a * b;
+        }
+        mul(10, 20);
+
+        function all() {
+            let a = parseInt(prompt("Enter your First number when you Take"));
+            for (let i = 1; i <= 10; i++) {
+                console.log(a + " X " + i + " = " + a * i);
+            }
+        }
+        all();
+
+        //arrow function 
+        let n = () => {
+            let n = parseInt(prompt("Enter num:"));
+            console.log("This value is:", n);
+        }
+        n();
+    </script>
+</body>
+
+</html>

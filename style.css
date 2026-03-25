@@ -1,0 +1,524 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: rgb(144, 149, 141); */
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+     overflow-x: hidden;
+}
+
+header {
+    margin-top: 10px;
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/poveda6u7yb/front-m7VoJwB28ZFLB9VQ.png");
+    background-size: cover;
+    /* border: 2px solid green; */
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.main p {
+    font-size: 35px;
+    color: white;
+    margin-top: 20px;
+}
+
+.main ul {
+    display: flex;
+    gap: 20px;
+}
+
+.main ul li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.main ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main2 {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+
+}
+
+.main2 :nth-child(1) {
+    font-size: 50px;
+}
+
+.main2 :nth-child(2) {
+    font-size: 110px;
+    margin-left: 5px;
+}
+
+.main2 :nth-child(3) {
+    font-size: 30px;
+}
+
+.main2 :nth-child(4) {
+    font-size: 30px;
+}
+
+.main2 :nth-child(5) {
+    font-size: 30px;
+}
+
+ .button{
+    margin-top: 20px;
+    color: white;
+    /* border: 5px solid white; */
+    border-radius: 30px;
+    font-size: 20px;
+ }  
+
+.button a {
+    color: white;
+     border: 5px solid white; 
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.button a:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.licence {
+    width: 100%;
+    height: 150px;
+    color: rgb(26, 26, 26);
+    background-color: rgb(210, 212, 209);
+    text-align: center;
+
+}
+
+.licence h1 {
+    position: relative;
+    top: 50px;
+    font-weight: lighter;
+    font-size: 70px;
+}
+
+.box1 {
+    width: 100%;
+    height: 450px;
+    /* border: 2px solid brown; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: rgb(210, 212, 209);
+}
+
+.box1 div {
+    margin-top: 10px;
+    width: 80%;
+    height: 150px;
+}
+
+.box1 img, .con1 img {
+    transition: transform 0.4s ease;
+}
+.box1 img:hover, .con1 img:hover {
+    transform: scale(1.1);
+}
+
+#A h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(26, 26, 26);
+}
+
+#B h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(26, 26, 26);
+}
+
+#C h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(26, 26, 26);
+}
+
+.box1 div button {
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    padding: auto;
+    text-align: center;
+    color: rgb(26, 26, 26);
+
+}
+
+.box1 div button:hover {
+    background-color: rgb(175, 200, 175);
+    font-size: 25px;
+    width: 250px;
+    height: 60px;
+}
+
+.box2 {
+    width: 100%;
+    height: 600px;
+    /* border: dotted burlywood; */
+    display: flex;
+}
+
+.box2 div {
+    width: 60%;
+    height: 600px;
+}
+
+.write {
+    background-color: rgb(186, 186, 185);
+    color: rgb(26, 26, 26);
+}
+
+.write h2 {
+    margin-top: 150px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.write p {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.write button {
+    padding: auto;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+}
+
+.write button:hover{
+    background-color: rgb(205, 204, 204);
+}
+
+.box3 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.box3 div {
+    width: 60%;
+    height: 600px;
+    background-color: rgb(55, 63, 50);
+}
+
+.write1 h1 {
+    margin-top: 50px;
+    font-size: 90px;
+    color: white;
+}
+
+.write1 p {
+    color: white;
+    margin-top: 20px;
+}
+
+.write1 button {
+    background-color: rgb(55, 63, 50);
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.write1 button:hover{
+    background-color: whitesmoke;
+    color: rgb(200, 203, 200);
+}
+
+.box4 {
+    width: 100%;
+    height: 200px;
+    /* border: 3px solid fuchsia; */
+    background-color: rgb(64, 67, 62);
+    color: white;
+
+}
+
+.F {
+    padding: 20px;
+    text-align: center;
+}
+
+.box5 {
+    width: 100%;
+    height: 550px;
+    /* border: 2px solid aqua; */
+    background-color: rgb(186, 186, 185);
+}
+
+.box5 h1 {
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.con {
+    margin-top: 25px;
+    width: 100%;
+    height: 350px;
+    /* border: 2px solid chocolate; */
+    display: flex;
+    gap: 50px;
+}
+
+.con1 {
+    margin-left: 20px;
+}
+
+.box5 button {
+    margin-top: 20px;
+    margin-left: 480px;
+    width: 250px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: auto;
+}
+
+.box5 button:hover{
+    background-color: rgb(207, 202, 202);
+}
+
+.box1 div, .box2, .box3, .box5 {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease;
+}
+
+.box6 {
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid violet; */
+    background-color: rgb(55, 63, 50);
+    color: white;
+}
+
+.box6 h1 {
+    position: relative;
+    top: 70px;
+    font-size: 30px;
+}
+
+
+.box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.box6 p {
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+}
+
+.box6 label {
+    position: relative;
+    left: 750px;
+    font-size: 25px;
+}
+
+.box6 input {
+    position: relative;
+    left: 750px;
+    width: 80%;
+    margin: 10px 0;
+    height: 30px;
+}
+
+.box6 button {
+    margin-top: 9px;
+    border-radius: 20px;
+    position: relative;
+    left: 750px;
+    width: 150px;
+    height: 25px;
+    padding: auto;
+    font-size: 20px;
+}
+
+.box6 button:hover{
+    background-color: whitesmoke;
+    color: rgb(200, 203, 200);
+}
+
+.box7 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(186, 186, 185);
+}
+
+
+.box7 ul li {
+    position: relative;
+    left: 650px;
+    list-style: none;
+
+}
+
+.box7 ul li a {
+    color: rgb(104, 113, 104);
+}
+
+.box7 p {
+    position: relative;
+    left:  900px;
+    top: -70px;
+}
+
+.logo1 {
+
+    position: relative;
+    left: 900px;
+    top: -70px;
+}
+
+.logo1 a {
+    color: rgb(104, 113, 104);
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .main ul {
+        display: none;
+        flex-direction: column;
+        background: black;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 200px;
+        padding: 20px;
+    }
+
+    .main ul.active {
+        display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    .main2 :nth-child(1) {
+        font-size: 30px;
+    }
+    .main2 :nth-child(2) {
+        font-size: 50px;
+    }
+    .main2 p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box1 {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .box1 div {
+        width: 90%;
+    }
+
+    .box1 div button {
+        margin-left: 0;
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .box2, .box3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box2 div, .box3 div {
+        width: 100%;
+        height: auto;
+    }
+
+    .write, .write1 {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .con {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .con1 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .box5 button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .box7 {
+        text-align: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .box7 ul li,
+    .box7 p,
+    .logo1 {
+        position: static;
+    }
+}

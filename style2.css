@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    /* background-color: rgb(144, 149, 141); */
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/poveda6u7yb/visit_bali-Yanj40lRj1HZe6VG.png);
+    background-size: cover;
+    /* border: 2px solid green; */
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.main p {
+    font-size: 35px;
+    color: white;
+    margin-top: 20px;
+}
+
+.main ul {
+    display: flex;
+    gap: 26px;
+    position: relative;
+    left: 750px;
+}
+
+.main ul li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.main ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main2 {
+    margin-top: 100px;
+    color: white;
+}
+
+.main2 :nth-child(1) {
+    font-size: 50px;
+}
+
+.main2 :nth-child(2) {
+    font-size: 110px;
+    margin-left: 5px;
+}
+
+.box {
+    border: 2px solid mediumseagreen;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(207, 213, 207);
+}
+
+.box p {
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.box :nth-child(1) {
+    font-size: 70px;
+}
+
+.licence {
+    width: 100%;
+    height: 150px;
+    color: rgb(26, 26, 26);
+    background-color: rgb(210, 212, 209);
+    text-align: center;
+
+}
+
+.licence h1 {
+    position: relative;
+    top: 50px;
+    font-weight: lighter;
+    font-size: 70px;
+}
+
+.box1 {
+    width: 100%;
+    height: 450px;
+    /* border: 2px solid brown; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: rgb(210, 212, 209);
+}
+
+.box1 div {
+    margin-top: 10px;
+    width: 80%;
+    height: 150px;
+}
+
+#A h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(26, 26, 26);
+}
+
+#B h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(26, 26, 26);
+}
+
+#C h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(26, 26, 26);
+}
+
+.box1 div button {
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    padding: auto;
+    text-align: center;
+    color: rgb(26, 26, 26);
+
+}
+
+.box1 div button:hover {
+    background-color: rgb(175, 200, 175);
+    font-size: 25px;
+    width: 250px;
+    height: 60px;
+}
+
+article{
+    border: 3px solid violet;
+    width: 100%;
+    height: 340px;
+    background-color:  rgb(69, 82, 69);
+    display: flex;
+    gap: 20px;
+}
+
+.box6{
+    margin-left: 20px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+form{
+    margin-top: 25px;
+    margin-left: 50px;
+   font-size: 20px;
+}
+
+form label input {
+    background-color: rgb(207, 213, 207);
+    width: 450px;
+    height: 35px; 
+}
+
+form button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.box2 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(186, 186, 185);
+}
+
+
+.box2 ul li {
+    position: relative;
+    left: 650px;
+    list-style: none;
+
+}
+
+.box2 ul li a {
+    color: rgb(104, 113, 104);
+}
+
+.box2 p {
+    position: relative;
+    left:  900px;
+    top: -70px;
+}
+
+.logo1 {
+
+    position: relative;
+    left: 900px;
+    top: -70px;
+}
+
+.logo1 a {
+    color: rgb(104, 113, 104);
+
+}

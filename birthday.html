@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday 🎉</title>
+
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        background: linear-gradient(135deg, #ff758c, #ff7eb3);
+        font-family: 'Segoe UI', sans-serif;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        background: white;
+        padding: 35px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        animation: zoomIn 1s ease;
+        z-index: 2;
+    }
+
+    h1 {
+        font-size: 42px;
+        color: #ff4081;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        color: #333;
+    }
+
+    p {
+        font-size: 18px;
+        color: #555;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 12px 30px;
+        font-size: 16px;
+        border: none;
+        border-radius: 30px;
+        background: #ff4081;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #e91e63;
+        transform: scale(1.1);
+    }
+
+    /* Balloons */
+    .balloon {
+        position: absolute;
+        bottom: -150px;
+        width: 60px;
+        height: 80px;
+        background: red;
+        border-radius: 50%;
+        animation: float 8s infinite ease-in;
+        opacity: 0.8;
+    }
+
+    .balloon::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 40px;
+        background: #555;
+        left: 50%;
+        top: 80px;
+    }
+
+    .b1 { left: 10%; background: #ff5252; animation-delay: 0s; }
+    .b2 { left: 30%; background: #ffeb3b; animation-delay: 2s; }
+    .b3 { left: 50%; background: #4caf50; animation-delay: 4s; }
+    .b4 { left: 70%; background: #2196f3; animation-delay: 1s; }
+    .b5 { left: 90%; background: #9c27b0; animation-delay: 3s; }
+
+    @keyframes float {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-120vh); }
+    }
+
+    @keyframes zoomIn {
+        from { transform: scale(0); }
+        to { transform: scale(1); }
+    }
+</style>
+</head>
+
+<body>
+
+<!-- Balloons -->
+<div class="balloon b1"></div>
+<div class="balloon b2"></div>
+<div class="balloon b3"></div>
+<div class="balloon b4"></div>
+<div class="balloon b5"></div>
+
+<!-- Card -->
+<div class="card">
+    <h1>🎉 Happy Birthday 🎉</h1>
+    <h2 id="name">Dear Friend</h2>
+    <p id="wish">Click the button for your special wish 🎂</p>
+    <button onclick="showWish()">Celebrate 🎊</button>
+</div>
+
+<!-- Music -->
+<audio id="music">
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    function showWish() {
+        let person = prompt("Enter Birthday Person Name:");
+        if (person !== null && person !== "") {
+            document.getElementById("name").innerText = person;
+        }
+
+        document.getElementById("wish").innerHTML =
+        "May your life be filled with happiness, success, and endless smiles! 🎁✨";
+
+        document.getElementById("music").play();
+    }
+</script>
+
+</body>
+</html>
+
